@@ -79,7 +79,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    @foreach ($people as $persons)
+                    <li>{{ $persons }}</li>
+                    @endforeach
                 </div>
 
                 <div class="links">
